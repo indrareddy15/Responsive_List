@@ -1,0 +1,16 @@
+.list-container {
+  border: 2px solid #ddd;
+  padding: 15px;
+  min-width: 250px;
+  flex-grow: 1;
+  margin: 10px;
+}
+
+.list-container.selected {
+  border-color: #2196f3;
+}
+
+.items-list {
+  max-height: 400px;
+  overflow-y: auto;
+}
